@@ -1,0 +1,6 @@
+print(f"{'-' * 10} DESAFIO 007 {'-' * 10}")
+print(f"{'-' * 33}")
+print(f"{'':^32}")
+print(f"{'-' * 33}")
+palavra1 = str(input("me de uma palavra: "))
+palavra2 = str(input("me de outra palavra: "))
