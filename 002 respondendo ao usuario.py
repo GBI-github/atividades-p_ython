@@ -1,7 +1,0 @@
-print(f"\033[4;37m{'-' * 10}\033[0;31m DESAFIO 02\033[0m \033[4;37m{'-' * 10}\033[0m")
-print(f"\033[4;37m{'-' * 32}\033[0m")
-print(f"\033[32m{'ESTRUTURA PRIMITIVA' :^32}\033[0m")
-print(f"{'INTERAÇÃO':^32}")
-print(f"\033[4;37m{'-' * 32}\033[0m")
-nome = input("Qual é o seu nome?: ")
-print("Olá ", nome, " seja bem vindo!!")

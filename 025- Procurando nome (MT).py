@@ -1,7 +1,0 @@
-print(f"\033[4;37m{'-' * 10}\033[0;31m DESAFIO 25\033[0m \033[4;37m{'-' * 10}\033[0m")
-print(f"\033[4;37m{'-' * 32}\033[0m")
-print(f"\033[32m{'MANIPULAÇÃO DE TEXTO' :^32}\033[0m")
-print(f"{'BUSCA NOME':^32}")
-print(f"\033[4;37m{'-' * 32}\033[0m")
-nome = str(input("Digite seu nome: "))
-print(f"Tem SILVA no seu nome? {'SILVA' in nome.upper()}")

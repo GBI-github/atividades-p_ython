@@ -1,7 +1,0 @@
-print(f"{'-' * 10} DESAFIO 003 {'-' * 10}")
-print(f"{'-' * 33}")
-print(f"{'':^32}")
-print(f"{'-' * 33}")
-caractere = str(input("Me diga algo: ")).strip()
-caractere = caractere.replace(" ", "")
-print(f"{caractere}")

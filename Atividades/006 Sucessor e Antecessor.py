@@ -1,0 +1,11 @@
+print(f"\033[4;37m{'-' * 10}\033[0;31m DESAFIO 06\033[0m \033[4;37m{'-' * 10}\033[0m")
+print(f"\033[4;37m{'-' * 32}\033[0m")
+print(f"\033[32m{'ESTRUTURA PRIMITIVA' :^32}\033[0m")
+print(f"{'SUCESSOR E ANTECESSOR':^32}")
+print(f"\033[4;37m{'-' * 32}\033[0m")
+
+numero = int(input("Me informe um numero: "))
+print()
+print(f"{'-+'*20}")
+print("o Sucessor e o Antecessor desse numero é")
+print(f"Sucessor: {numero+1}\nAntecessor: {numero-1}")
