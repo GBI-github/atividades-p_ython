@@ -16,7 +16,8 @@ letra = senha
 caractere02 = any(letra.isupper() for letra in senha)
 caractere1 = any(letra.islower() for letra in senha)
 numero = any(n.isnumeric() for n in senha)
-simbulo_buscar = any(caractere in senha for caractere in caractere_verificar )
+simbulo_buscar = any(caractere in senha for caractere in caractere_verificar)
+
 if len(senhainvalida) >= len(senha) >= len(senhavalida) and caractere02 and caractere1 and numero and simbulo_buscar:
     print("Senha valida")
 else:

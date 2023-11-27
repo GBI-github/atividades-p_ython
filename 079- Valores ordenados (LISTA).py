@@ -5,15 +5,14 @@ print(f"{'POSIÇÃO DOS NUMEROS':^32}")
 print(f"\033[4;37m{'-' * 32}\033[0m")
 print()
 lista = []
-num = int(input("Informe um numero [0]-EXIT: "))
-lista.append(num)
-while num != 0:
+numero = 0
+while True:
     num = int(input("Informe um numero [0]-EXIT: "))
-    for c in lista:
-        if num != c:
-            numero = num[:]
-    if num != 0:
-        lista.append(numero)
+    if num not in lista:
+        if num != 0:
+            lista.append(num)
+    if num == 0:
+        break
 lista.sort()
 print("Esses valores ordenados ficam: ", end='')
 for c in lista:

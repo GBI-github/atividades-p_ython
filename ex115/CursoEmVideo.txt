@@ -1,0 +1,5 @@
+joao;20
+brendo;23
+patricia;23
+pamela;55
+patricia;43
