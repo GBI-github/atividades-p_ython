@@ -1,2 +1,2 @@
 # projetos-python
-Meus projetos em *python 
+Meus projetos em Python 
